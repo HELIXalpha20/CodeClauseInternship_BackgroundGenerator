@@ -23,9 +23,6 @@ function updateBackground() {
   // Update the entire page background and preview box
   document.body.style.background = gradient;
   preview.style.background = gradient;
-
-  // Update the CSS code display
-  cssCode.textContent = `background: ${gradient};`;
 }
 
 // Reset to default background

@@ -92,13 +92,6 @@ select {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.css-code-container {
-  background: #f4f4f4;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: left;
-}
-
 .css-code-container p {
   margin: 0 0 10px 0;
   font-size: 1.1rem;
