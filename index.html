@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Page Background Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Full Page Background Generator</h1>
+    <div class="controls">
+      <div class="color-picker">
+        <label for="color1">Color 1:</label>
+        <input type="color" id="color1" value="#ff0000">
+      </div>
+      <div class="color-picker">
+        <label for="color2">Color 2:</label>
+        <input type="color" id="color2" value="#0000ff">
+      </div>
+      <div class="gradient-type">
+        <label for="gradientType">Gradient Type:</label>
+        <select id="gradientType">
+          <option value="linear">Linear Gradient</option>
+          <option value="radial">Radial Gradient</option>
+        </select>
+      </div>
+      <button id="resetButton">Reset Background</button>
+    </div>
+    <div class="preview" id="preview">
+      <p>Real-Time Background Preview</p>
+    </div>
+    <div class="css-code-container">
+      <p>CSS Code:</p>
+      <code id="cssCode">background: linear-gradient(to right, #ff0000, #0000ff);</code>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
